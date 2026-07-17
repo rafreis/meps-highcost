@@ -1,0 +1,10 @@
+{
+  "n_train": 44225,
+  "n_valid": 15033,
+  "best_iter": 223,
+  "auc_train": 0.9158,
+  "auc_valid": 0.8567,
+  "brier_valid": 0.0676,
+  "citl_valid": [0.1059, 0.1],
+  "calib_slope_valid": 0.931
+}

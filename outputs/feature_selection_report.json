@@ -1,0 +1,15 @@
+{
+  "train_panels": ["21", "22", "23"],
+  "n_train_rows": 44225,
+  "y1_common": 685,
+  "universe_after_exclusion": 176,
+  "invariant": ["SEX", "RACEV1X", "RACETHX", "HISPANX"],
+  "allowlist_added": ["RTHLTH1", "RTHLTH2", "MNHLTH1", "MNHLTH2", "ADGENH2", "ADDAYA2", "ACTLIM1", "COGLIM1", "SOCLIM1", "WLKLIM1", "WRKLIM1", "HSELIM1", "ADLHLP1", "AIDHLP1", "IADLHP1", "HAVEUS2"],
+  "n_after_missing_nzv": 99,
+  "n_after_redundancy": 79,
+  "n_rao_scott": 69,
+  "n_candidate_for_lasso": 72,
+  "candidate_features": ["f_actlim1", "f_addaya2", "f_adgenh2", "f_adlhlp1", "f_age", "f_aidhlp1", "f_angidx", "f_arthdx", "f_asthdx", "f_cancer", "f_chddx", "f_choldx", "f_coglim1", "f_dvtot", "f_emphdx", "f_ertot", "f_faminc", "f_famrfp", "f_famsze", "f_foodst", "f_haveus2", "f_hhagd", "f_hhtotd", "f_hibpdx", "f_hispanx", "f_iadlhp1", "f_ins", "f_insc", "f_inscov", "f_insurc", "f_ipdis", "f_ipngtd", "f_marr", "f_marry", "f_mcrev", "f_midx", "f_mnhlth1", "f_mnhlth2", "f_obdrv", "f_obtotv", "f_ohrtdx", "f_opdrv", "f_optotv", "f_pmdins", "f_povcat", "f_povlev", "f_pridk", "f_prieu", "f_pring", "f_priog", "f_prstx", "f_prvev", "f_prvhmo", "f_pub", "f_racethx", "f_racev1x", "f_region", "f_rthlth1", "f_rthlth2", "f_ruclas", "f_rxtot", "f_sex", "f_soclim1", "f_strkdx", "f_totexp", "f_totslf", "f_trich", "f_triev", "f_ttlp", "f_unins", "f_wilfil", "f_wlklim1"],
+  "wlasso_status": "not_installed",
+  "lasso_selected": {}
+}

@@ -1,0 +1,126 @@
+{
+  "panels_pooled": ["21", "22", "23", "26", "27"],
+  "out_path": "data/derived/pooled.rds",
+  "n_rows_pooled": 59258,
+  "per_panel": {
+    "21": {
+      "panel": "21",
+      "role": "train",
+      "n_rows": 15617,
+      "threshold": 12108,
+      "weighted_base_rate": 0.1001,
+      "n_top": 1458,
+      "design_ok": true,
+      "transition_n": 14192,
+      "sum_longwt_full": 328906575.8041,
+      "sum_longwt_all5rds": 303264290.573,
+      "n_all5rds": 14431,
+      "expected_population_total": 303300000,
+      "population_total_pct_diff": -0.01
+    },
+    "22": {
+      "panel": "22",
+      "role": "train",
+      "n_rows": 14541,
+      "threshold": 14640,
+      "weighted_base_rate": 0.1,
+      "n_top": 1490,
+      "design_ok": true,
+      "transition_n": 13086,
+      "sum_longwt_full": 329407361.2786,
+      "sum_longwt_all5rds": 304942923.6104,
+      "n_all5rds": 13492,
+      "expected_population_total": 304900000,
+      "population_total_pct_diff": 0.01
+    },
+    "23": {
+      "panel": "23",
+      "role": "train",
+      "n_rows": 14067,
+      "threshold": 15069,
+      "weighted_base_rate": 0.1,
+      "n_top": 1511,
+      "design_ok": true,
+      "transition_n": 12587,
+      "sum_longwt_full": 330644960.5036,
+      "sum_longwt_all5rds": 305703884.2859,
+      "n_all5rds": 13044,
+      "expected_population_total": 305700000,
+      "population_total_pct_diff": 0
+    },
+    "26": {
+      "panel": "26",
+      "role": "validation",
+      "n_rows": 6741,
+      "threshold": 16904,
+      "weighted_base_rate": 0.1001,
+      "n_top": 831,
+      "design_ok": true,
+      "transition_n": 5905,
+      "sum_longwt_full": 337023296.5072,
+      "sum_longwt_all5rds": 311540185.4145,
+      "n_all5rds": 6295,
+      "expected_population_total": 311500000,
+      "population_total_pct_diff": 0.01
+    },
+    "27": {
+      "panel": "27",
+      "role": "validation",
+      "n_rows": 8292,
+      "threshold": 17661,
+      "weighted_base_rate": 0.1,
+      "n_top": 972,
+      "design_ok": true,
+      "transition_n": 7306,
+      "sum_longwt_full": 338597319.8834,
+      "sum_longwt_all5rds": 316722082.7127,
+      "n_all5rds": 7812,
+      "expected_population_total": 316700000,
+      "population_total_pct_diff": 0.01
+    }
+  },
+  "schema_report": {
+    "21": {
+      "panel": "21",
+      "role": "train",
+      "n_cols_total": 74,
+      "n_feat_cols": 62,
+      "n_unprefixed_extra_cols": 1,
+      "unprefixed_extra_cols_sample": "all5rds"
+    },
+    "22": {
+      "panel": "22",
+      "role": "train",
+      "n_cols_total": 74,
+      "n_feat_cols": 62,
+      "n_unprefixed_extra_cols": 1,
+      "unprefixed_extra_cols_sample": "all5rds"
+    },
+    "23": {
+      "panel": "23",
+      "role": "train",
+      "n_cols_total": 74,
+      "n_feat_cols": 62,
+      "n_unprefixed_extra_cols": 1,
+      "unprefixed_extra_cols_sample": "all5rds"
+    },
+    "26": {
+      "panel": "26",
+      "role": "validation",
+      "n_cols_total": 74,
+      "n_feat_cols": 62,
+      "n_unprefixed_extra_cols": 1,
+      "unprefixed_extra_cols_sample": "all5rds"
+    },
+    "27": {
+      "panel": "27",
+      "role": "validation",
+      "n_cols_total": 74,
+      "n_feat_cols": 62,
+      "n_unprefixed_extra_cols": 1,
+      "unprefixed_extra_cols_sample": "all5rds"
+    }
+  },
+  "totals_match_published": true,
+  "issues": []
+}

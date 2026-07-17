@@ -1,0 +1,10 @@
+{
+  "n_candidates": 72,
+  "lambda_1se": 0.0059,
+  "lambda_min": 0.0001,
+  "n_selected_1se": 34,
+  "n_selected_min": 71,
+  "forced_anchors": ["f_totexp", "f_totslf", "f_age", "f_sex", "f_racev1x", "f_racethx", "f_hispanx", "f_povcat", "f_povlev", "f_ttlp", "f_faminc", "f_inscov", "f_unins"],
+  "selected_1se": ["f_insc", "f_unins", "f_hispanx", "f_inscov", "f_racethx", "f_sex", "f_asthdx", "f_rthlth1", "f_actlim1", "f_rthlth2", "f_racev1x", "f_ohrtdx", "f_addaya2", "f_chddx", "f_wlklim1", "f_midx", "f_adgenh2", "f_aidhlp1", "f_obtotv", "f_age", "f_rxtot", "f_opdrv", "f_arthdx", "f_hhagd", "f_optotv", "f_obdrv", "f_hhtotd", "f_ipngtd", "f_povcat", "f_povlev", "f_totslf", "f_totexp", "f_faminc", "f_ttlp"],
+  "selected_min": ["f_insc", "f_priog", "f_prstx", "f_pring", "f_adlhlp1", "f_asthdx", "f_hispanx", "f_ins", "f_inscov", "f_prvev", "f_midx", "f_haveus2", "f_strkdx", "f_iadlhp1", "f_ohrtdx", "f_chddx", "f_aidhlp1", "f_cancer", "f_sex", "f_racethx", "f_rthlth1", "f_actlim1", "f_ertot", "f_mcrev", "f_arthdx", "f_ruclas", "f_trich", "f_ipdis", "f_foodst", "f_coglim1", "f_rthlth2", "f_soclim1", "f_addaya2", "f_prieu", "f_famsze", "f_marry", "f_racev1x", "f_famrfp", "f_prvhmo", "f_pub", "f_pridk", "f_emphdx", "f_pmdins", "f_wlklim1", "f_opdrv", "f_marr", "f_dvtot", "f_mnhlth2", "f_adgenh2", "f_angidx", "f_hibpdx", "f_insurc", "f_obtotv", "f_wilfil", "f_unins", "f_region", "f_rxtot", "f_povcat", "f_ipngtd", "f_age", "f_triev", "f_optotv", "f_mnhlth1", "f_hhagd", "f_obdrv", "f_hhtotd", "f_povlev", "f_totslf", "f_totexp", "f_faminc", "f_ttlp"]
+}

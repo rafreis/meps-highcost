@@ -1,0 +1,16 @@
+PROJECT_ROOT <- normalizePath(".", mustWork = FALSE)
+source(file.path(PROJECT_ROOT, "R", "config.R"))
+df <- readRDS(file.path(PROJECT_ROOT, "data", "derived", "panel_23.rds"))
+
+cat("Rows:", nrow(df), " Cols:", ncol(df), "\n")
+cat("Canonical cols present:", all(CANONICAL_COLUMNS %in% names(df)), "\n")
+cat("Any duplicate dupersid:", any(duplicated(df$dupersid)), "\n")
+cat("Any NA longwt/varstr/varpsu:", any(is.na(df$longwt)), any(is.na(df$varstr)), any(is.na(df$varpsu)), "\n")
+cat("Any negative longwt:", any(df$longwt < 0, na.rm = TRUE), "\n")
+cat("panel/year1/year2 unique:", unique(df$panel), unique(df$year1), unique(df$year2), "\n")
+cat("top_decile_y2 table:\n"); print(table(df$top_decile_y2, useNA = "ifany"))
+cat("f_* columns:", paste(grep("^f_", names(df), value = TRUE), collapse=", "), "\n")
+model_cols <- names(df)[is_model_eligible(names(df))]
+cat("Model-eligible cols (", length(model_cols), "):", paste(model_cols, collapse=", "), "\n")
+cat("y2-like cols in whole df:", paste(grep("_y2$", names(df), value=TRUE), collapse=", "), "\n")
+str(df[1:3,])

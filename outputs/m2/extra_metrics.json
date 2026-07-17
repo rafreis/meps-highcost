@@ -1,0 +1,9 @@
+{
+  "auc_panel26": 0.8564,
+  "auc_panel27": 0.8569,
+  "operating_point": "top 10% predicted risk flagged",
+  "pct_flagged": 0.1,
+  "sensitivity": 0.4889,
+  "specificity": 0.9432,
+  "ppv": 0.489
+}

@@ -1,0 +1,7 @@
+{
+  "method": "svyVarSel::wlasso dCV k=10",
+  "n_candidates": 72,
+  "lambda_min": 0.0004,
+  "n_selected": 64,
+  "selected": ["f_insc", "f_priog", "f_adlhlp1", "f_pring", "f_asthdx", "f_prstx", "f_haveus2", "f_midx", "f_prvev", "f_ohrtdx", "f_strkdx", "f_cancer", "f_chddx", "f_ins", "f_inscov", "f_aidhlp1", "f_iadlhp1", "f_rthlth1", "f_sex", "f_hispanx", "f_arthdx", "f_ertot", "f_actlim1", "f_rthlth2", "f_addaya2", "f_famsze", "f_trich", "f_coglim1", "f_ipdis", "f_ruclas", "f_soclim1", "f_pridk", "f_marry", "f_foodst", "f_mcrev", "f_unins", "f_famrfp", "f_wlklim1", "f_emphdx", "f_opdrv", "f_dvtot", "f_adgenh2", "f_marr", "f_mnhlth2", "f_racethx", "f_obtotv", "f_hibpdx", "f_rxtot", "f_prvhmo", "f_region", "f_ipngtd", "f_age", "f_insurc", "f_optotv", "f_povcat", "f_hhagd", "f_obdrv", "f_pmdins", "f_hhtotd", "f_wilfil", "f_povlev", "f_totslf", "f_totexp", "f_ttlp"]
+}

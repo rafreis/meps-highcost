@@ -1,0 +1,12 @@
+{
+  "auc_valid": {
+    "lightgbm": {
+      "auc": 0.8567,
+      "ci95": [0.8422, 0.8689]
+    },
+    "xgboost": 0.8506,
+    "survey_logit": 0.8455,
+    "prior_cost_only": 0.8127
+  },
+  "ci_method": "design-based subbootstrap replicate weights, 200 reps (survey::as.svrepdesign)"
+}

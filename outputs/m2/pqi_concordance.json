@@ -1,0 +1,21 @@
+{
+  "n_valid": 15033,
+  "n_pqi_hf": 28,
+  "n_pqi_copd": 26,
+  "n_pqi_any": 53,
+  "by_actual_top_decile": {
+    "pqi_prev": 0.003,
+    "P_pqi_given_highcost": 0.0198,
+    "P_pqi_given_not": 0.0011,
+    "P_highcost_given_pqi": 0.6621,
+    "risk_ratio": 17.63
+  },
+  "by_model_flag": {
+    "pqi_prev": 0.003,
+    "P_pqi_given_highcost": 0.0178,
+    "P_pqi_given_not": 0.0014,
+    "P_highcost_given_pqi": 0.5928,
+    "risk_ratio": 13.1
+  },
+  "note": "Proxy: any year-2 inpatient stay CLNK-linked to HF(I50)/COPD(J40-J44) condition; 3-digit ICD-10-CM; no principal-dx flag. Deviation from AHRQ PQI v2024 disclosed."
+}

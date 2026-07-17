@@ -1,0 +1,15 @@
+{
+  "note": "Transition sensitivity: among persons NOT year-1 top-decile, predict year-2 top-decile (new high-cost).",
+  "full_sample": {
+    "scope": "full",
+    "n": 53076,
+    "transition_rate_wtd": 0.063,
+    "auc_wtd": 0.8545
+  },
+  "validation": {
+    "scope": "validation",
+    "n": 13211,
+    "transition_rate_wtd": 0.0626,
+    "auc_wtd": 0.7999
+  }
+}

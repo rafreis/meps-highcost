@@ -1,0 +1,31 @@
+# ---- Data -------------------------------------------------------------------
+# Raw MEPS files are public and re-downloadable (see README); derived frames are
+# rebuilt by R/prep_panel.R. Never commit them (~715 MB).
+data/
+
+# ---- Local tooling / environment --------------------------------------------
+.tools/
+node_modules/
+renv/library/
+renv/staging/
+renv/sandbox/
+renv/local/
+
+# ---- Person-level derived microdata -----------------------------------------
+# The training matrix carries one row per MEPS respondent (incl. DUPERSID). It is
+# regenerable from the public files by the pipeline and is not redistributed here.
+outputs/train_lasso_input.*
+
+# ---- Manuscript document (kept out of the code deposit) ---------------------
+outputs/manuscript/
+build_manuscript.js
+
+# ---- Windows stray device-name file -----------------------------------------
+nul
+
+# ---- R / editor -------------------------------------------------------------
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+.Renviron
