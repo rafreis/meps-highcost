@@ -29,3 +29,7 @@ nul
 .Rproj.user/
 *.Rproj
 .Renviron
+
+# ---- Internal orchestration scaffolding (not part of the analysis) ----------
+docs/M1_MULTIAGENT_PLAN.md
+workflows/
