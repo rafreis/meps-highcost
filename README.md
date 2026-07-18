@@ -91,12 +91,10 @@ The study is reported per **TRIPOD+AI**; the completed checklist is in `protocol
 Method-by-method justification of applicability under a complex survey design, with citations, is in
 `docs/Methods_Justification.md`.
 
+## Citation
+
+If you use this code, please cite the accompanying article (details to follow on publication).
+
 ## License
 
 Code released under the MIT License (`LICENSE`).
-
-## Use of artificial intelligence
-
-An AI coding assistant (Claude, Anthropic) was used to help write and debug the analysis code and to
-draft and language-edit the manuscript. All data handling, analyses, results, and interpretations were
-specified and verified by the author, who takes full responsibility for the content.
