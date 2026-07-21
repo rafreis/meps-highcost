@@ -19,6 +19,8 @@ outputs/train_lasso_input.*
 # ---- Manuscript document (kept out of the code deposit) ---------------------
 outputs/manuscript/
 build_manuscript.js
+build_letters.js
+build_supplement.js
 
 # ---- Windows stray device-name file -----------------------------------------
 nul
