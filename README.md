@@ -1,5 +1,8 @@
 # Survey-weighted machine learning for prospective stratification of high-cost patients
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21496938.svg)](https://doi.org/10.5281/zenodo.21496938)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Analysis code for the study *"Survey-Weighted Machine Learning for Prospective Stratification of
 High-Cost Patients: A Design-Based Pipeline with External Temporal Validation, Decision-Curve
 Analysis, and Subgroup Calibration in a Nationally Representative U.S. Cohort"* (submitted to the
